@@ -17,5 +17,6 @@ public static void main(String[] args) {
 	System.out.println("Prix avec tva vaut");
 	double ttc = (phtva+tva);
 	System.out.println(ttc);
+clavier.close();
 }
 }

@@ -9,5 +9,6 @@ public static void main(String[] args) {
 	
 	float moyenne = nb1/ nb2 ;
 	System.out.println("la moyenne de mes nombres   "+moyenne);
+	clavier.close();
 }
 }

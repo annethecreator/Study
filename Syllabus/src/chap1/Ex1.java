@@ -10,6 +10,6 @@ int nb2 = clavier.nextInt();
 
 int somme = nb1 +nb2;
 System.out.println("La somme est "+ somme);
-
+clavier.close();
 }
 }

@@ -12,6 +12,6 @@ public static void main(String[] args) {
 	double pi = 3	;
 	double pericercle = 2*pi*rayon;
 	System.out.println("Le perimetre du cercle est de "+ pericercle);
-	
+	clavier.close();
 }
 }

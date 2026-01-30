@@ -14,5 +14,6 @@ double pi = 3.1415;
 System.out.println("La surface est");
 double surface = pi*rayon*rayon;
 System.out.println(surface);
+clavier.close();
 	}
 }
