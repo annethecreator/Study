@@ -12,10 +12,11 @@ System.out.println("Entre montant");
 	System.out.println("Les interets apres 1 an valent");
 double taux =clavier.nextDouble();
 System.out.println("Entre le taux");
-double interet = montant*(1+(taux/100));
+double interet = montant*(taux/100);
 
 System.out.println("Les interets apres 1 an valent");
 System.out.println(interet);
-
+clavier.close();
 }
+
 }
